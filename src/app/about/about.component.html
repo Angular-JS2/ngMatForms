@@ -1,0 +1,22 @@
+
+
+<h2>Colored Table Header</h2>
+
+<table *ngIf="apps">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Password</th>
+  </tr>
+  <tr  *ngFor="let app of apps">
+    <td>{{app.userID}}</td>
+    <td>{{app.name}}</td>
+    <td>{{app.address}}</td>
+    <td>{{app.password}}</td>
+  </tr>
+ 
+</table>
+
+
+
